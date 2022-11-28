@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lots of functions</title>
+</head>
+<body>
+    <h1>We are going to study different types of functions</h1>
+    
+
+
+
+
+    
+    <!-- - Write a function that takes your name and age as an input parameter and print it by using
+string concatenation. -->
+<script>
+    function sum(name,age) {
+        
+console.log(name +" " +age);
+    }
+
+    sum("Ali",16)
+//     Q2 - Write a function name ‘Double’ that takes an input parameter and multiply that parameter
+// by 2 and store the result in a variable and call the function by passing an argument.
+function double(a){
+    let x = a*2;
+    console.log(x);
+}
+double(4)
+// Q3 - Write a function to print the square of a number by using function expression and that
+// function can be used as variable value for other variables.
+
+let square = function add(a){
+    console.log(a*a);
+}
+square(6)
+
+// Write an arrow function as an expression to check the age of the baby . If the age of the
+// baby is less than 18 print Baby else print adult.
+// */
+
+ let kid= (q)=>{
+    if(q<=18){
+        console.log("Baby");
+    }
+        else{
+        console.log("Adult");
+    }
+}
+kid (4)
+
+// - Write an arrow function and print a sum of two numbers by passing a single parameter
+// inside the arrow function.
+
+let study = (p)=>{
+    sum = p+2;
+    console.log(sum);
+}
+study(2,2)
+</script>
+</body>
+</html>
